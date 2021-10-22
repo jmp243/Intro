@@ -112,6 +112,10 @@ tail(diamonds)
 
 View(diamonds)
 
+library(tidyverse)
+diamond2 <- diamonds %>% 
+  filter(price >1000)
+
 ?diamonds
 
 qplot(x, y, data = diamonds)

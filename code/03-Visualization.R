@@ -14,7 +14,7 @@ qplot(Sepal.Width, Sepal.Length, data = iris, color = Species, shape = Species, 
 
 # Diving in: Scatterplots
 
-install.packages("ggplot2")
+# install.packages("ggplot2")
 library(ggplot2)
 ?mpg
 View(mpg)

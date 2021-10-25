@@ -8,14 +8,17 @@ output: html_document
 
 
 **Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+Yes. There was an issue the 01-Reshape.R file in your Intro repo.
+The issue threw the following error:
+Error in FUN(left, right) : non-numeric argument to binary operator
 
 **Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+I corrected the line of code throwing the error. You can upload the revised .R file.
 
 **Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+You can also make the change yourself by removing the line:
+> raw <- 1 + raw
 
 **Additional context**
-Add any other context or screenshots about the feature request here.
+Thanks! :)
 
